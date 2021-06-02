@@ -1,23 +1,37 @@
 <section>
-    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill-rule="evenodd"
+        clip-rule="evenodd">
         <path
-            d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.019 10.13c-.282-.293-.268-.751.024-1.035l2.974-2.884c.145-.14.332-.211.517-.211.188 0 .375.073.518.22l-4.033 3.91zm-4.888 7.348c-.062.059-.093.139-.093.218 0 .167.136.304.304.304.076 0 .152-.029.212-.086l.499-.486-.422-.436-.5.486zm4.219-5.617l-1.71 1.657c-.918.891-1.387 1.753-1.819 2.958l.754.779c1.217-.395 2.094-.836 3.013-1.728l1.709-1.658-1.947-2.008zm4.985-5.106l-4.402 4.27 2.218 2.29 4.402-4.269c.323-.314.485-.73.485-1.146 0-1.392-1.687-2.13-2.703-1.145z" />
+            d="M24 19h-1v-2.2c-1.853 4.237-6.083 7.2-11 7.2-6.623 0-12-5.377-12-12h1c0 6.071 4.929 11 11 11 4.66 0 8.647-2.904 10.249-7h-2.249v-1h4v4zm-11.036 0h-1.886c-.34-.957-.437-1.571-1.177-1.878h-.001c-.743-.308-1.251.061-2.162.494l-1.333-1.333c.427-.899.804-1.415.494-2.163-.308-.74-.926-.839-1.878-1.177v-1.886c.954-.339 1.57-.437 1.878-1.178.308-.743-.06-1.248-.494-2.162l1.333-1.333c.918.436 1.421.801 2.162.494l.001-.001c.74-.307.838-.924 1.177-1.877h1.886c.34.958.437 1.57 1.177 1.877l.001.001c.743.308 1.252-.062 2.162-.494l1.333 1.333c-.435.917-.801 1.421-.494 2.161v.001c.307.739.915.835 1.878 1.178v1.886c-.953.338-1.571.437-1.878 1.178-.308.743.06 1.249.494 2.162l-1.333 1.333c-.92-.438-1.42-.802-2.157-.496-.746.31-.844.926-1.183 1.88zm-.943-4.667c-1.289 0-2.333-1.044-2.333-2.333 0-1.289 1.044-2.334 2.333-2.334 1.289 0 2.333 1.045 2.333 2.334 0 1.289-1.044 2.333-2.333 2.333zm-8.021-5.333h-4v-4h1v2.2c1.853-4.237 6.083-7.2 11-7.2 6.623 0 12 5.377 12 12h-1c0-6.071-4.929-11-11-11-4.66 0-8.647 2.904-10.249 7h2.249v1z" />
     </svg>
     <div class="section-content">
-        <h3>WORK EXPERIENCE</h3>
+        <h3>EXPERIENCE</h3>
         <hr>
         <p>
             <b>DevOps</b>
             <br>
-            <i>ChocolaStudio</i> | <i>Barcelona, Spain</i> | <i>2021 - present</i>
+            <i>ChocolaStudio</i> | <i>Remote</i> | <i>2021 - present</i>
             <br>
-            • Contract work as and when required.
+            • Contract work as and when required
             <br>
-            • Upgraded an existing Python codebase to incorporate cloud services and multiple accounts
+            • Upgraded an existing Python codebase to incorporate cloud services and manage multiple accounts
         </p>
 
         <p>
-            <b>Data Analysty & Computational Linguist</b>
+            <b>English Teacher & Coordinator</b>
+            <br>
+            <i>Universidad Internacional Menéndez Pelayo</i> | <i>Various, Spain</i> | <i>2014 - present</i>
+            <br>
+            • Teacher and Deputy Site Coordinator
+            of the UIMP English immersion program
+            to University students from all over Spain.
+            All levels from beginner to advanced.<br>
+            • Skills acquired include effective rapport building,
+            sustaining interest from students, squeezing every ounce of dynamicism from your teaching material
+        </p>
+
+        <p>
+            <b>Data Analyst & Computational Linguist</b>
             <br>
             <i>Brandwatch</i> | <i>Brighton, UK</i> | <i>2011 - 2013</i>
 
@@ -33,7 +47,6 @@
             trends for clients of English speaking
             markets, and project manager to clients of 23
             other languages.
-
         </p>
 
 

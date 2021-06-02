@@ -7,8 +7,12 @@
         <h3>FAMILIARITY</h3>
         <hr>
         <p>
-            Git, Qt, Rust, Python, Modern JavaScript/ES6,
-            SOLID design principles,
+            • Git<br>
+            • Qt<br>
+            • Rust<br>
+            • Python<br>
+            • Modern JavaScript/ES6<br>
+            • Modern coding design patterns and principles
         </p>
     </div>
 </section>

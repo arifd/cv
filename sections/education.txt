@@ -21,9 +21,7 @@
         <a href="../assets/CELTA.pdf">
             <p>
                 <b>
-                    CAMBRIDGE/ESOL CERTIFICATE
-                    <br>
-                    Certificate in English Language Teaching
+                    Cambridge/ESOL Certificate in English Language Teaching
                 </b>
                 <br>
                 <i>University of Cambridge</i> | <i>United Kingdom</i>

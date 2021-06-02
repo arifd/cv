@@ -12,6 +12,12 @@
                 framework</a><br>
             • <a href="https://arifd.github.io/connect/">2D Puzzle Game compiled to Web Assembly</a><br>
             • Porting an entire professional Python2 codebase to Rust<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; - Very small statically linked binary size and RAM usage<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; - Cross platform<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; - GUI integration<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; - Network requests<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; - File system management<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; - Interactive PDF creation
         </p>
     </div>
 </section>

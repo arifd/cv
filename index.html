@@ -16,7 +16,7 @@
         <img id="header-photo" class="" src="https://avatars3.githubusercontent.com/u/2345750" alt="Arif Driessen" />
         <div class="header-right">
             <h1>ARIF DRIESSEN</h1>
-            <p class=subheader>Software engineer & consultant</p>
+            <p class=subheader>Polyglot Software Engineer</p>
         </div>
     </header>
     <main>
@@ -25,10 +25,10 @@
             <article data-src="skills"></article>
             <article data-src="education"></article>
             <article data-src="familiarity"></article>
-            <article data-src="interested"></article>
+            <!-- <article data-src="interested"></article> -->
         </div>
         <div class="right">
-            <article data-src="about"></article>
+            <article data-src="profile"></article>
             <article data-src="contributions"></article>
             <article data-src="experience"></article>
             <article data-src="projects"></article>
@@ -45,6 +45,20 @@
             const part6 = part1 + String.fromCharCode(part2) + part4 + part5;
             return part6;
         }
+
+        function tel() {
+            const space = ' ';
+            const plus = '+';
+            const zero = '0';
+            const one = '1';
+            const three = '3';
+            const four = '4';
+            const five = '5';
+            const six = '6';
+            const eight = '8';
+            const nine = '9';
+            return plus + three + four + space + six + one + one + space + zero + nine + zero + space + five + six + eight;
+        }
     </script>
 
     <script type="text/javascript">
@@ -55,6 +69,7 @@
                     .then(response => response.text())
                     .then(text => {
                         text = text.replaceAll("**email**", email);
+                        text = text.replaceAll("**tel**", tel);
                         article.innerHTML = text
                     })
             }
