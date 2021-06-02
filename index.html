@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arif Driessen - Curriculum Vitae</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <section style="justify-content: center;">
+        <img id="header-photo" class="" src="https://avatars3.githubusercontent.com/u/2345750" alt="Arif Driessen" />
+        <div class="header-right">
+            <h1>ARIF DRIESSEN</h1>
+            <p class=subheader>Software engineer & consultant</p>
+        </div>
+    </section>
+    <main>
+        <div class="left">
+            <article data-src="contact"></article>
+            <article data-src="skills"></article>
+            <article data-src="education"></article>
+            <article data-src="familiarity"></article>
+            <article data-src="interested"></article>
+        </div>
+        <div class="right">
+            <article data-src="about"></article>
+            <article data-src="contributions"></article>
+            <article data-src="experience"></article>
+            <article data-src="projects"></article>
+        </div>
+    </main>
+
+    <script type="text/javascript">
+        function email() {
+            const part1 = "arifd86";
+            const part2 = Math.pow(2, 6);
+            const part3 = String.fromCharCode(part2);
+            const part4 = "liamg".split("").reverse().join('');
+            const part5 = "moc.".split("").reverse().join('');
+            const part6 = part1 + String.fromCharCode(part2) + part4 + part5;
+            return part6;
+        }
+    </script>
+
+    <script type="text/javascript">
+        // Replacer
+        [...document.getElementsByTagName('article')].forEach(article => {
+            if (article.dataset.src) {
+                fetch('sections/' + article.dataset.src + '.txt')
+                    .then(response => response.text())
+                    .then(text => {
+                        text = text.replaceAll("**email**", email);
+                        article.innerHTML = text
+                    })
+            }
+        })
+    </script>
+</body>
+
+</html>

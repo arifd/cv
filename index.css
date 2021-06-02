@@ -1,0 +1,102 @@
+:root {
+  --padding: 1em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.shadow {
+  box-shadow: 0px 0px 20px 0px rgba(51, 51, 51, 0.75);
+}
+
+body {
+  padding: var(--padding);
+  /* border: 1px solid #aaa; */
+  margin: var(--padding);
+  background: #F1F1F1;
+}
+
+/* show up in print mode */
+
+hr {
+  /* display: block; */
+  height: 1px;
+  /* background: transparent; */
+  width: 100%;
+  border: none;
+  border-top: solid 1px #aaa;
+}
+
+.frame {
+  border: 1px solid black;
+  margin: 1em;
+}
+
+/* div {
+  margin: var(--padding);
+} */
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+section>p {
+  padding: var(--padding);
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 2em;
+  /* padding-left: 0.5em; */
+  /* align-items: center; */
+}
+
+svg {
+  padding-right: 1em;
+  transform: translateY(40%);
+}
+
+#header-photo {
+  border: 2px solid black;
+  border-radius: 100%;
+  height: 5em;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 2em;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 33%;
+  padding-right: 1em;
+  /* border-right: 1px dotted #666666; */
+}
+
+.right {
+  padding-left: 1em;
+  width: 66%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
