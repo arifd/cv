@@ -8,7 +8,7 @@
 </style>
 
 <div class="contact-row">
-    <img src="../icons/contact/location.svg">
+    <img src="icons/contact/location.svg">
     &nbsp;
     <p>
         Cordoba, Spain <span class="no-print greyed-out" id="timezone"></span>
@@ -17,21 +17,21 @@
 </div>
 
 <div class="contact-row">
-    <img src="../icons/contact/telephone.svg">
+    <img src="icons/contact/telephone.svg">
     &nbsp;
     <p>
         **tel**
     </p>
 </div>
 <div class="contact-row">
-    <img src="../icons/contact/email.svg">
+    <img src="icons/contact/email.svg">
     &nbsp;
     <p id="email">
         <a href="mailto:**email**">**email**</a>
     </p>
 </div>
 <div class="contact-row">
-    <img src="../icons/contact/github.svg">
+    <img src="icons/contact/github.svg">
     &nbsp;
     <p>
         <a href="https://github.com/arifd">
@@ -41,7 +41,7 @@
 
 </div>
 <div class="contact-row" style="padding-bottom: 0;">
-    <img src="../icons/contact/linkedin.svg">
+    <img src="icons/contact/linkedin.svg">
     &nbsp;
     <p>
         --
