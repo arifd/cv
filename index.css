@@ -129,10 +129,17 @@ ul {
   list-style-position: outside;
 }
 
+li {
+  margin-bottom: calc(var(--padding) / 2);
+}
+
 li:nth-child(even) {
-  padding-top: calc(var(--padding) / 2);
-  padding-bottom: calc(var(--padding) / 2);
   background-color: var(--shade-alt-row);
+}
+
+.two-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* Layouting for a box of content inside an article */

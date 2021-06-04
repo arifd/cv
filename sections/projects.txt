@@ -43,7 +43,7 @@
     <b>Porting an entire professional Python2 codebase to Rust</b>
 </div>
 <div class="content-content">
-    <ul>
+    <ul class="two-cols">
         <li>Very small statically linked binary size and RAM usage</li>
         <li>Cross platform</li>
         <li>GUI integration</li>
