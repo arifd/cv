@@ -1,4 +1,4 @@
-<a href="../assets/uni-brighton.pdf">
+<a href="assets/uni-brighton.pdf">
     <div class="content-header">
         <b>
             Digital Music & Sound Arts
@@ -17,7 +17,7 @@
     </div>
 </a>
 <div class="content-buffer"></div>
-<a href="../assets/CELTA.pdf">
+<a href="assets/CELTA.pdf">
     <div class="content-header">
         <b>Cambridge/ESOL Certificate in English Language Teaching</b>
         <i>
