@@ -77,7 +77,7 @@
             content = content.replaceAll("**email**", email);
             content = content.replaceAll("**tel**", tel);
             // prepare headers
-            const icon = `<img src="../icons/${name}.svg">`;
+            const icon = `<img src="icons/${name}.svg">`;
             const title = `<header><h3>${name.toUpperCase()}</h3><hr></header>`;
             // inject
             article.innerHTML = icon + title + '<div style="padding: var(--padding);">' + content + '</div>';
