@@ -80,7 +80,7 @@
             const icon = `<img src="icons/${name}.svg">`;
             const title = `<header><h3>${name.toUpperCase()}</h3><hr></header>`;
             // inject
-            article.innerHTML = icon + title + '<div style="padding: var(--padding);">' + content + '</div>';
+            article.innerHTML = icon + title + '<main style="padding-top: var(--padding);">' + content + '</main>';
         }
 
         [...document.getElementsByTagName('article')].forEach(article => inject_content(article))
