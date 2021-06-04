@@ -5,8 +5,8 @@
 
 <div class="content-content">
     <ul>
-        <li>Native WebGL/OpenGL.</li>
-        <li>Native DSP written in JS (AudioWorklet with ScriptProcessorNode fallback).</li>
+        <li>Native WebGL/OpenGL</li>
+        <li>Native DSP written in JS (AudioWorklet with ScriptProcessorNode fallback)</li>
     </ul>
 </div>
 
@@ -18,9 +18,9 @@
 </div>
 <div class="content-content">
     <ul>
-        <li>Written in Rust.</li>
-        <li>Graphs traversal and backtracking algorithm for level creation/solving.</li>
-        <li>WebAssembly, and native desktop versions from the same code.</li>
+        <li>Written in Rust</li>
+        <li>Graphs traversal and backtracking algorithm for level creation/solving</li>
+        <li>WebAssembly, and native desktop versions from the same code</li>
     </ul>
 </div>
 
@@ -32,8 +32,8 @@
 </div>
 <div class="content-content">
     <ul>
-        <li>C++ and JUCE framework exploration.</li>
-        <li>Compares performance of different random number generators.</li>
+        <li>C++ and JUCE framework exploration</li>
+        <li>Compares performance of different random number generators</li>
     </ul>
 </div>
 
