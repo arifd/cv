@@ -1,0 +1,6 @@
+<ul>
+    <li class="greyed-out">Pure Rust GUI is ready (if you're willing to get your hands dirty)<br>&nbsp;<span
+            class="font"> - under
+            development</span></li>
+    </li>
+</ul>

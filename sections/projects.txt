@@ -1,23 +1,54 @@
-<section>
-    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
-        <path
-            d="M22 2v20h-20v-20h20zm2-2h-24v24h24v-24zm-4 7h-8v1h8v-1zm0 5h-8v1h8v-1zm0 5h-8v1h8v-1zm-10.516-11.304l-.71-.696-2.553 2.607-1.539-1.452-.698.71 2.25 2.135 3.25-3.304zm0 5l-.71-.696-2.552 2.607-1.539-1.452-.698.709 2.249 2.136 3.25-3.304zm0 5l-.71-.696-2.552 2.607-1.539-1.452-.698.709 2.249 2.136 3.25-3.304z" />
-    </svg>
-    <div class="section-content">
-        <h3>PROJECTS</h3>
-        <hr>
-        <p>
-            • <a href="https://arifd.github.io/fire/">Realistic fire simulation using WebGL (OpenGL)</a><br>
-            • <a href="https://github.com/Arifd/Noise-Algorithms">Eperiments in DSP with the JUCE C++ audio application
-                framework</a><br>
-            • <a href="https://arifd.github.io/connect/">2D Puzzle Game compiled to Web Assembly</a><br>
-            • Porting an entire professional Python2 codebase to Rust<br>
-            &nbsp;&nbsp;&nbsp;&nbsp; - Very small statically linked binary size and RAM usage<br>
-            &nbsp;&nbsp;&nbsp;&nbsp; - Cross platform<br>
-            &nbsp;&nbsp;&nbsp;&nbsp; - GUI integration<br>
-            &nbsp;&nbsp;&nbsp;&nbsp; - Network requests<br>
-            &nbsp;&nbsp;&nbsp;&nbsp; - File system management<br>
-            &nbsp;&nbsp;&nbsp;&nbsp; - Interactive PDF creation
-        </p>
-    </div>
-</section>
+<div class="content-header">
+    <b>Realistic fire simulation</b>
+    <a href="https://arifd.github.io/fire/"><i>https://arifd.github.io/fire</i></a>
+</div>
+
+<div class="content-content">
+    <ul>
+        <li>Native WebGL/OpenGL.</li>
+        <li>Native DSP written in JS (AudioWorklet with ScriptProcessorNode fallback).</li>
+    </ul>
+</div>
+
+<div class="content-buffer"></div>
+
+<div class="content-header">
+    <b>2D Puzzle Game</b>
+    <a href="https://arifd.github.io/connect/"><i>https://arifd.github.io/connect</i></a>
+</div>
+<div class="content-content">
+    <ul>
+        <li>Written in Rust.</li>
+        <li>Graphs traversal and backtracking algorithm for level creation/solving.</li>
+        <li>WebAssembly, and native desktop versions from the same code.</li>
+    </ul>
+</div>
+
+<div class="content-buffer"></div>
+
+<div class="content-header">
+    <b>Experiments in DSP with the JUCE C++ audio application framework</b>
+    <a href="https://github.com/Arifd/Noise-Algorithms/"><i>https://github.com/Arifd/Noise-Algorithms</i></a>
+</div>
+<div class="content-content">
+    <ul>
+        <li>C++ and JUCE framework exploration.</li>
+        <li>Compares performance of different random number generators.</li>
+    </ul>
+</div>
+
+<div class="content-buffer"></div>
+
+<div class="content-header">
+    <b>Porting an entire professional Python2 codebase to Rust</b>
+</div>
+<div class="content-content">
+    <ul>
+        <li>Very small statically linked binary size and RAM usage</li>
+        <li>Cross platform</li>
+        <li>GUI integration</li>
+        <li>Network requests</li>
+        <li>File system management</li>
+        <li>Interactive PDF creation</li>
+    </ul>
+</div>

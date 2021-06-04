@@ -6,33 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arif Driessen - Curriculum Vitae</title>
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon" />
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="fonts.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <img id="header-photo" class="" src="https://avatars3.githubusercontent.com/u/2345750" alt="Arif Driessen" />
-        <div class="header-right">
-            <h1>ARIF DRIESSEN</h1>
-            <p class=subheader>Polyglot Software Engineer</p>
-        </div>
-    </header>
-    <main>
+    <main class="page">
+        <header class="no-print">
+            <img id="header-photo" class="no-print" src="https://avatars3.githubusercontent.com/u/2345750"
+                alt="Arif Driessen" />
+            <div>
+                <h1>ARIF DRIESSEN</h1>
+                <p class=subheader>Polyglot Software Engineer</p>
+            </div>
+        </header>
         <div class="left">
             <article data-src="contact"></article>
             <article data-src="skills"></article>
-            <article data-src="education"></article>
             <article data-src="familiarity"></article>
+            <article data-src="talks"></article>
             <!-- <article data-src="interested"></article> -->
         </div>
         <div class="right">
             <article data-src="profile"></article>
             <article data-src="contributions"></article>
             <article data-src="experience"></article>
-            <article data-src="projects"></article>
         </div>
+        <footer>
+            <article data-src="projects"></article>
+            <article data-src="education"></article>
+        </footer>
     </main>
 
     <script type="text/javascript">
@@ -61,19 +66,34 @@
         }
     </script>
 
-    <script type="text/javascript">
+    <script type="module">
         // Replacer
-        [...document.getElementsByTagName('article')].forEach(article => {
-            if (article.dataset.src) {
-                fetch('sections/' + article.dataset.src + '.txt')
-                    .then(response => response.text())
-                    .then(text => {
-                        text = text.replaceAll("**email**", email);
-                        text = text.replaceAll("**tel**", tel);
-                        article.innerHTML = text
-                    })
-            }
-        })
+        async function inject_content(article) {
+            const name = article.dataset.src;
+            // fetch content
+            const response = await fetch('sections/' + name + '.txt');
+            let content = await response.text();
+            // dynamically replace
+            content = content.replaceAll("**email**", email);
+            content = content.replaceAll("**tel**", tel);
+            // prepare headers
+            const icon = `<img src="../icons/${name}.svg">`;
+            const title = `<header><h3>${name.toUpperCase()}</h3><hr></header>`;
+            // inject
+            article.innerHTML = icon + title + '<div style="padding: var(--padding);">' + content + '</div>';
+        }
+
+        [...document.getElementsByTagName('article')].forEach(article => inject_content(article))
+    </script>
+
+    <script>
+            (function set_time() {
+                const element = document.getElementById("timezone");
+                if (element) {
+                    element.innerHTML = '(' + new Date().toLocaleTimeString({ timeZone: "Europe/Madrid", }) + ')';
+                }
+                setTimeout(set_time, 1000);
+            })()
     </script>
 </body>
 

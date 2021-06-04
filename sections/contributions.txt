@@ -1,26 +1,24 @@
-<section>
-    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
-        <path
-            d="M5 18.184v-11.368c1.163-.413 2-1.511 2-2.816 0-1.657-1.343-3-3-3s-3 1.343-3 3c0 1.305.837 2.403 2 2.816v11.367c-1.163.414-2 1.512-2 2.817 0 1.657 1.343 3 3 3s3-1.343 3-3c0-1.305-.837-2.403-2-2.816zm-2.8-14.184c0-.993.807-1.8 1.8-1.8s1.8.807 1.8 1.8-.807 1.8-1.8 1.8-1.8-.807-1.8-1.8zm1.8 18.8c-.993 0-1.8-.807-1.8-1.8s.807-1.8 1.8-1.8 1.8.807 1.8 1.8-.807 1.8-1.8 1.8zm17-4.616v-11.184c0-2.206-1.794-4-4-4h-3v-3l-4 4 4 4v-3h3c1.103 0 2 .897 2 2v11.184c-1.163.413-2 1.512-2 2.816 0 1.657 1.343 3 3 3s3-1.343 3-3c0-1.305-.837-2.403-2-2.816zm-1 4.616c-.993 0-1.8-.807-1.8-1.8s.807-1.8 1.8-1.8 1.8.807 1.8 1.8-.807 1.8-1.8 1.8z" />
-    </svg>
-    <div class="section-content">
-        <h3>CONTRIBUTIONS</h3>
-        <hr>
-        <p>
-            <a href="https://github.com/linebender/druid"><b>Druid</b></a>
-            <br>
-            <i>A data-first Rust-native UI toolkit</i>
-            <br>
-            • Various documentation improvements and debug warnings
-        </p>
-
-        <p>
-            <a href="https://github.com/dev47apps/droidcam"><b>DroidCam</b></a>
-            <br>
-            <i>Use your phone as a webcam!</i>
-            <br>
-            • Updated the Linux installer to include a menubar application entry
-        </p>
-
-    </div>
-</section>
+<!--  -->
+<div class="content-header">
+    <a href="https://github.com/linebender/druid"><b>Druid</b></a>
+    <i>A data-first Rust-native UI toolkit</i>
+</div>
+<div class="content-content">
+    <ul>
+        <li>Various documentation improvements and debug warnings.</li>
+        <li>Navigating a codebase that makes heavy use of generics.</li>
+    </ul>
+</div>
+<!--  -->
+<div class="content-buffer"></div>
+<!--  -->
+<div class="content-header">
+    <a href="https://github.com/dev47apps/droidcam"><b>DroidCam</b></a>
+    <i>Use your phone as a webcam!</i>
+</div>
+<div class="content-content">
+    <ul>
+        <li>Updated the Linux installer to include a menubar application entry.</li>
+    </ul>
+</div>
+<!--  -->
