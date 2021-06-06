@@ -140,6 +140,7 @@ li:nth-child(even) {
 .two-cols {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: calc(var(--padding) * 2);
 }
 
 /* Layouting for a box of content inside an article */
