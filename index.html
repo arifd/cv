@@ -71,7 +71,7 @@
         async function inject_content(article) {
             const name = article.dataset.src;
             // fetch content
-            const response = await fetch('sections/' + name + '.txt');
+            const response = await fetch('sections/' + name);
             let content = await response.text();
             // dynamically replace
             content = content.replaceAll("**email**", email);
