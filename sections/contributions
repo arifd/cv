@@ -1,3 +1,14 @@
+<div class="content-header">
+    <a href="https://github.com/FFmpeg/FFmpeg/commits?author=arifd"><b>FFmpeg</b></a>
+    <i>Multimedia processing library</i>
+</div>
+<div class="content-content">
+    <ul>
+        <li>Simple documentation improvement.</li>
+    </ul>
+</div>
+<!--  -->
+<div class="content-buffer"></div>
 <!--  -->
 <div class="content-header">
     <a href="https://github.com/linebender/druid/commits?author=arifd"><b>Druid</b></a>
