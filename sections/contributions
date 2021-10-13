@@ -1,4 +1,19 @@
 <!--  -->
+<a href="https://ffmpeg.org/">
+    <div class="content-header">
+        <b>FFmpeg</b>
+        <i>A collection of multimedia libraries and tools.</i>
+    </div>
+</a>
+<div class="content-content">
+    <ul>
+        <li><a href="https://github.com/FFmpeg/ffmpeg/commits?author=arifd">Minor documentation improvements.</a></li>
+        <li><a href="https://trac.ffmpeg.org/timeline?authors=arifd">Customer support in the bug tracker.</a></li>
+    </ul>
+</div>
+<!--  -->
+<div class="content-buffer"></div>
+<!--  -->
 <a href="https://github.com/linebender/druid/">
     <div class="content-header">
         <b>Druid</b>
