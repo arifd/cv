@@ -1,24 +1,28 @@
 <!--  -->
-<div class="content-header">
-    <a href="https://github.com/linebender/druid/commits?author=arifd"><b>Druid</b></a>
-    <i>A data-first Rust-native UI toolkit</i>
-</div>
+<a href="https://github.com/linebender/druid/">
+    <div class="content-header">
+        <b>Druid</b>
+        <i>A data-first Rust-native UI toolkit</i>
+    </div>
+</a>
 <div class="content-content">
     <ul>
-        <li>Various documentation improvements and debug warnings.</li>
+        <li><a href="https://github.com/linebender/druid/commits?author=arifd">Various documentation improvements and debug warnings.</a></li>
         <li>Navigating a codebase that makes heavy use of generics.</li>
     </ul>
 </div>
 <!--  -->
 <div class="content-buffer"></div>
 <!--  -->
-<div class="content-header">
-    <a href="https://github.com/dev47apps/droidcam/commits?author=arifd"><b>DroidCam</b></a>
-    <i>Use your phone as a webcam!</i>
-</div>
+<a href="https://play.google.com/store/apps/details?id=com.dev47apps.droidcam">
+    <div class="content-header">
+        <b>DroidCam</b>
+        <i>Use your phone as a webcam!</i>
+    </div>
+</a>
 <div class="content-content">
     <ul>
-        <li>Updated the Linux installer to include a menubar application entry.</li>
+        <li><a href="https://github.com/dev47apps/droidcam/commits?author=arifd">Updated the Linux installer to include a menubar application entry.</a></li>
     </ul>
 </div>
 <!--  -->
