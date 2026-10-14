@@ -186,8 +186,6 @@ li:nth-child(even) {
     background: none;
   }
   body>main {
-    /* Use the printable page area and let the CV flow to its natural height. */
-    zoom: 0.95;
     width: 100%;
     height: auto;
     max-width: none;
